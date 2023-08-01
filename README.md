@@ -1,6 +1,6 @@
 # ethavaxmod4
 #  create a ERC20 token and deploy it on the Avalanche network for Degen Gaming
-This repository is made for my ethereum intermediate avax mod 4 project which is used to create ERC20 token. 
+This repository is made for my ethereum intermediate avax mod 4 project which is used to create ERC20 token and test it on Avalanche fuji test network.
 
 ## Problem Statement
 The smart contract should have the following functionality:
@@ -18,7 +18,7 @@ THEN we create event member in my contract that stores argument passed in the tr
 THEN we create a transfer() function that is used to transfer the tokens to any other address.Then create a CheckBalance() function that will the reaturn the total token . 
 THEN we create a redeem() function that is used to redeem the tokens by the players  for items that are in the game store.
 THEN we create a burn() function that is used to burn extra tokens by players that is not in used.
-And all this transaction should be visible Snowtrace network that is a  Avalanche network.
+And all this transaction should be visible Snowtrace network that is a  Avalanche fuji test network.
 ## Getting Started
 
 ### Executing Program
@@ -31,7 +31,7 @@ To compile the code, click on the "Solidity Compiler" tab in the left-hand sideb
 
 Once the code is compiled, you can deploy the contract by clicking on the "Deploy & Run Transactions" tab in the left-hand sidebar. Select the "MyContract" contract from the dropdown menu, and then click on the "Deploy" button.
 
-After deployment of  the contract call the function Mint(), Transfer() , Burn() , checkBalance() , and test it on #SnowTrace network. 
+After deployment of  the contract call the function Mint(), Transfer() , Burn() , checkBalance() , and test it on #SnowTrace network using Avalanche fuji test network. 
 
 
 ## Author
