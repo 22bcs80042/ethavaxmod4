@@ -29,9 +29,9 @@ contract DegenToken is ERC20, Ownable {
         }
 
     function redeem(uint chooseOption) public {
-        uint requiredAmount = chooseOption * 10;
-        require(balanceOf(msg.sender)>=requiredAmount,"ER20 tokens are not enough");
-        burn(requiredAmount);
+        uint requiredToken = chooseOption * 10;
+        require(balanceOf(msg.sender)>=requiredToken,"ER20 tokens are not enough");
+        burn(requiredToken);
         emit TokenRedeem(msg.sender, chooseOption);
     }
 
@@ -41,3 +41,4 @@ contract DegenToken is ERC20, Ownable {
         emit TokenBurn(msg.sender, amount);
     }
 }
+
